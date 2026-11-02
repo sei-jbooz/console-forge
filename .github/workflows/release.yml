@@ -20,3 +20,4 @@ jobs:
       build-command: cp README.md projects/console-forge/README.md && npm ci && (cd projects/console-forge && npm ci --omit=peer) && npm run build
       publish-path: ./dist/console-forge
       auth-mode: trusted
+      dry-run: true
